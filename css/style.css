@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --black-color :#252525;
+    --white-color:#fff
+
+}
+
+
+/* utilities */
+
+.wrapper{
+    max-width: 1300px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    gap: 10px;
+}
+
+/* top ribbin */
+.ribbin {
+    font-size: 18px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    height: 60px;
+}
